@@ -4,8 +4,8 @@ import java.io.*;
 public class Client {
 
     public static void main(String[] args) {
-        String hostname = "www.perdu.com";
-        int hostport = 80;
+        String hostname = "192.168.1.11";//"www.perdu.com";
+        int hostport = 8090;//80;
         Socket ClientSocket = null;
 
         try {
